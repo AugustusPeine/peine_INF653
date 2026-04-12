@@ -1,0 +1,161 @@
+
+[2026-04-11 16:24:41] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:24:58] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:25:29] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:25:35] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:32:06] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:33:00] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+[2026-04-11 16:39:40] Error Name: Error
+Message: Intentional test error for the error handler middleware.
+Route: GET /cause-error
+Status: 500
+Stack: Error: Intentional test error for the error handler middleware.
+    at C:\Users\Gus\Desktop\Back End\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\Users\Gus\Desktop\Back End\Error Handler\node_modules\cors\lib\index.js:188:7)
+
+        [2026-04-12 15:05:37] Error Name: Error
+        Message: Intentional test error for the error handler middleware.
+        Route: GET /cause-error
+        Status: 500
+        Stack: Error: Intentional test error for the error handler middleware.
+    at C:\xampp\htdocs\Assignments\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\xampp\htdocs\Assignments\Error Handler\node_modules\cors\lib\index.js:188:7)
+        
+        [2026-04-12 15:05:48] Error Name: Error
+        Message: Intentional test error for the error handler middleware.
+        Route: GET /cause-error
+        Status: 500
+        Stack: Error: Intentional test error for the error handler middleware.
+    at C:\xampp\htdocs\Assignments\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\xampp\htdocs\Assignments\Error Handler\node_modules\cors\lib\index.js:188:7)
+        
+        [2026-04-12 15:10:40] Error Name: Error
+        Message: Intentional test error for the error handler middleware.
+        Route: GET /cause-error
+        Status: 500
+        Stack: Error: Intentional test error for the error handler middleware.
+    at C:\xampp\htdocs\Assignments\Error Handler\expressServer.js:84:17
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\route.js:117:3)
+    at handle (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\lib\layer.js:152:17)
+    at C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:295:15
+    at processParams (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:582:12)
+    at next (C:\xampp\htdocs\Assignments\Error Handler\node_modules\router\index.js:291:5)
+    at cors (C:\xampp\htdocs\Assignments\Error Handler\node_modules\cors\lib\index.js:188:7)
+        
