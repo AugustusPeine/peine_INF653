@@ -4,7 +4,7 @@ This guide will help you test all endpoints of the Event Ticketing System API.
 
 ## Prerequisites
 
-- API running locally (`http://localhost:5000`)
+- API running locally (`http://localhost:3001`)
 - Postman or Thunder Client installed
 - A text editor for organizing test data
 
@@ -25,7 +25,7 @@ cp .env.example .env
 npm run dev
 ```
 
-You should see: `Server running on port 5000`
+You should see: `Server running on port 3001`
 
 ### Step 2: Open Testing Tool
 
@@ -93,7 +93,7 @@ Expected Response: 201 Created
 #### Test 1.3: Login User
 ```
 Method: POST
-URL: http://localhost:5000/api/auth/login
+URL: http://localhost:3001/api/auth/login
 Headers: Content-Type: application/json
 
 Body:
@@ -113,7 +113,7 @@ Expected Response: 200 OK
 #### Test 1.4: Login with Wrong Password
 ```
 Method: POST
-URL: http://localhost:5000/api/auth/login
+URL: http://localhost:3001/api/auth/login
 Headers: Content-Type: application/json
 
 Body:
@@ -133,7 +133,7 @@ Expected Response: 401 Unauthorized
 #### Test 2.1: Get All Events (Should be empty initially)
 ```
 Method: GET
-URL: http://localhost:5000/api/events
+URL: http://localhost:3001/api/events
 
 Expected Response: 200 OK
 {
@@ -146,7 +146,7 @@ Expected Response: 200 OK
 #### Test 2.2: Create Event (Admin Only)
 ```
 Method: POST
-URL: http://localhost:5000/api/events
+URL: http://localhost:3001/api/events
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <ADMIN_TOKEN>
@@ -179,7 +179,7 @@ Expected Response: 201 Created
 #### Test 2.3: Create Another Event
 ```
 Method: POST
-URL: http://localhost:5000/api/events
+URL: http://localhost:3001/api/events
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <ADMIN_TOKEN>
@@ -202,7 +202,7 @@ Expected Response: 201 Created
 #### Test 2.4: Get All Events
 ```
 Method: GET
-URL: http://localhost:5000/api/events
+URL: http://localhost:3001/api/events
 
 Expected Response: 200 OK
 {
@@ -226,7 +226,7 @@ Expected Response: 200 OK
 #### Test 2.5: Filter Events by Category
 ```
 Method: GET
-URL: http://localhost:5000/api/events?category=Music
+URL: http://localhost:3001/api/events?category=Music
 
 Expected Response: 200 OK
 {
@@ -245,7 +245,7 @@ Expected Response: 200 OK
 #### Test 2.6: Filter Events by Date
 ```
 Method: GET
-URL: http://localhost:5000/api/events?date=2024-07-15
+URL: http://localhost:3001/api/events?date=2024-07-15
 
 Expected Response: 200 OK
 {
@@ -264,7 +264,7 @@ Expected Response: 200 OK
 #### Test 2.7: Get Single Event
 ```
 Method: GET
-URL: http://localhost:5000/api/events/<EVENT_ID>
+URL: http://localhost:3001/api/events/<EVENT_ID>
 
 Expected Response: 200 OK
 {
@@ -280,7 +280,7 @@ Expected Response: 200 OK
 #### Test 2.8: Update Event (Admin Only)
 ```
 Method: PUT
-URL: http://localhost:5000/api/events/<EVENT_ID>
+URL: http://localhost:3001/api/events/<EVENT_ID>
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <ADMIN_TOKEN>
@@ -306,7 +306,7 @@ Expected Response: 200 OK
 #### Test 2.9: Try to Create Event Without Admin Role (Should fail)
 ```
 Method: POST
-URL: http://localhost:5000/api/events
+URL: http://localhost:3001/api/events
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <USER_TOKEN>
@@ -328,7 +328,7 @@ Expected Response: 403 Forbidden
 #### Test 2.10: Try to Update with Invalid Seat Capacity
 ```
 Method: PUT
-URL: http://localhost:5000/api/events/<EVENT_ID>
+URL: http://localhost:3001/api/events/<EVENT_ID>
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <ADMIN_TOKEN>
@@ -349,7 +349,7 @@ Expected Response: 400 Bad Request
 #### Test 3.1: Get Bookings (Should be empty initially)
 ```
 Method: GET
-URL: http://localhost:5000/api/bookings
+URL: http://localhost:3001/api/bookings
 Headers: 
   - Authorization: Bearer <USER_TOKEN>
 
@@ -364,7 +364,7 @@ Expected Response: 200 OK
 #### Test 3.2: Create Booking
 ```
 Method: POST
-URL: http://localhost:5000/api/bookings
+URL: http://localhost:3001/api/bookings
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <USER_TOKEN>
@@ -403,7 +403,7 @@ Expected Response: 201 Created
 #### Test 3.3: Get All Bookings for User
 ```
 Method: GET
-URL: http://localhost:5000/api/bookings
+URL: http://localhost:3001/api/bookings
 Headers: 
   - Authorization: Bearer <USER_TOKEN>
 
@@ -423,7 +423,7 @@ Expected Response: 200 OK
 #### Test 3.4: Get Single Booking
 ```
 Method: GET
-URL: http://localhost:5000/api/bookings/<BOOKING_ID>
+URL: http://localhost:3001/api/bookings/<BOOKING_ID>
 Headers: 
   - Authorization: Bearer <USER_TOKEN>
 
@@ -440,7 +440,7 @@ Expected Response: 200 OK
 #### Test 3.5: Try to Access Another User's Booking (Should fail)
 ```
 Method: GET
-URL: http://localhost:5000/api/bookings/<BOOKING_ID>
+URL: http://localhost:3001/api/bookings/<BOOKING_ID>
 Headers: 
   - Authorization: Bearer <ANOTHER_USER_TOKEN>
 
@@ -453,7 +453,7 @@ Expected Response: 403 Forbidden
 #### Test 3.6: Try to Book Without Authentication (Should fail)
 ```
 Method: POST
-URL: http://localhost:5000/api/bookings
+URL: http://localhost:3001/api/bookings
 
 Body:
 {
@@ -470,7 +470,7 @@ Expected Response: 401 Unauthorized
 #### Test 3.7: Try to Book More Tickets Than Available
 ```
 Method: POST
-URL: http://localhost:5000/api/bookings
+URL: http://localhost:3001/api/bookings
 Headers: 
   - Content-Type: application/json
   - Authorization: Bearer <USER_TOKEN>
@@ -497,7 +497,7 @@ Create 3-4 more bookings with different quantities using different users or the 
 #### Test 4.1: Register with Invalid Email
 ```
 Method: POST
-URL: http://localhost:5000/api/auth/register
+URL: http://localhost:3001/api/auth/register
 
 Body:
 {
@@ -515,7 +515,7 @@ Expected Response: 400 Bad Request
 #### Test 4.2: Register with Short Password
 ```
 Method: POST
-URL: http://localhost:5000/api/auth/register
+URL: http://localhost:3001/api/auth/register
 
 Body:
 {
@@ -530,7 +530,7 @@ Expected Response: 400 Bad Request (or 201 depending on validation)
 #### Test 4.3: Register with Duplicate Email
 ```
 Method: POST
-URL: http://localhost:5000/api/auth/register
+URL: http://localhost:3001/api/auth/register
 
 Body:
 {
@@ -550,7 +550,7 @@ Expected Response: 400 Bad Request
 #### Test 5.1: Delete Event (Admin Only)
 ```
 Method: DELETE
-URL: http://localhost:5000/api/events/<EVENT_ID>
+URL: http://localhost:3001/api/events/<EVENT_ID>
 Headers: 
   - Authorization: Bearer <ADMIN_TOKEN>
 
@@ -566,7 +566,7 @@ Expected Response: 200 OK
 #### Test 5.2: Verify Event is Deleted
 ```
 Method: GET
-URL: http://localhost:5000/api/events/<EVENT_ID>
+URL: http://localhost:3001/api/events/<EVENT_ID>
 
 Expected Response: 404 Not Found
 {
@@ -579,7 +579,7 @@ Expected Response: 404 Not Found
 #### Test 6.1: Access Non-existent Route (JSON)
 ```
 Method: GET
-URL: http://localhost:5000/api/nonexistent
+URL: http://localhost:3001/api/nonexistent
 Headers: 
   - Accept: application/json
 
@@ -592,7 +592,7 @@ Expected Response: 404 Not Found
 #### Test 6.2: Access Non-existent Route (HTML)
 ```
 Method: GET
-URL: http://localhost:5000/api/nonexistent
+URL: http://localhost:3001/api/nonexistent
 Headers: 
   - Accept: text/html
 
@@ -609,7 +609,7 @@ Expected Response: 404 Not Found (HTML page)
 #### Test 7.1: Visit Root URL
 ```
 Method: GET
-URL: http://localhost:5000/
+URL: http://localhost:3001/
 
 Expected Response: 200 OK (HTML welcome page)
 ```
@@ -655,7 +655,7 @@ Expected Response: 200 OK (HTML welcome page)
 
 ### Issue: Port already in use
 - Change PORT in .env
-- Or kill process using port: `lsof -ti:5000 | xargs kill -9`
+- Or kill process using port: `lsof -ti:3001 | xargs kill -9`
 
 ## Performance Testing (Optional)
 
@@ -663,7 +663,7 @@ Create a script to test API performance:
 ```bash
 # Test 100 requests
 for i in {1..100}; do
-  curl http://localhost:5000/api/events
+  curl http://localhost:3001/api/events
 done
 ```
 
