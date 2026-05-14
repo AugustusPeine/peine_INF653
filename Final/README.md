@@ -592,11 +592,3 @@ For issues or questions, please check:
 2. Console logs on the server
 3. MongoDB Atlas logs for database issues
 4. Environment variables are correctly set
-
-## License
-
-ISC
-
----
-
-**Happy coding! 🎫**
